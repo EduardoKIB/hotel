@@ -1,38 +1,85 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}git init
-
-body {
-  background-color: rgb(56, 56, 56);
-}
-
+/* Estilos principais */
 .container {
-  display: grid;
-  grid-template-columns: 1fr;
-  background: rgb(100, 100, 100);
-  border-radius: 20px;
-  height: 450px;
-  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff; /* Branco para o fundo */
 }
 
-h4 {
-  margin: 5px 130px 5px 10px;
+.align {
+  background-color: #ffffff; /* Fundo branco para o formulário */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 600px; /* Aumentado para acomodar campos lado a lado */
+  width: 100%;
+}
+
+h1 {
+  font-size: 24px;
+  color: black; /* Preto */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+  color: #800000; /* Bordô */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap; /* Permite que os itens se movam para a próxima linha se não houver espaço */
+  gap: 20px; /* Espaço entre os itens */
+}
+
+.form > div {
+  flex: 1 1 45%; /* Campos ocupam 45% da largura do contêiner, com flexibilidade para ajustar */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
 }
 
 input {
-  background: transparent;
+  width: 100%; /* Ocupa 100% da largura do contêiner pai */
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.register-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #800000; /* Bordô */
+  color: #ffffff; /* Texto branco */
   border: none;
-  border-bottom: 1px solid;
-  outline: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
 }
 
-input::placeholder {
-  color: aliceblue;
+.register-button:hover {
+  background-color: #420000; /* Bordô mais escuro */
 }
 
-a {
-  color: white;
+p {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.link {
+  color: #600000; /* Bordô */
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
 }

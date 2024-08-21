@@ -1,26 +1,16 @@
-import './App.css'
+import * as React from 'react';
+import { Routes, Route } from 'react-router-dom';
 
-function App() {
+import cadastro from './páginas/cadastro';
+import login from './páginas/login';
 
+export default function App() {
   return (
-    <>
-    <div className="container">
-      <div className="aling">
-        <h1>LOGO</h1>
-        <h4>Gmail</h4>
-        <input type="email" placeholder='Gmail'/>
-        <h4>Senha</h4>
-        <input type="password" placeholder='Senha'/>
-
-      </div>
-      <div className="link">
-        <button>ENTRAR</button>
-
-        <p>Não é registrado ainda ? <a className='a'>Cadastrar-se</a></p>
-      </div>
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<cadastro />} />
+        <Route path="login" element={<login />} />
+      </Routes>
     </div>
-    </>
-  )
+  );
 }
-
-export default App

@@ -1,15 +1,15 @@
 import * as React from 'react';
-import { Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 
-import cadastro from './páginas/cadastro';
-import login from './páginas/login';
+import Cadastro from './páginas/cadastro';
+import Login from './páginas/login';
 
 export default function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path="/" element={<cadastro />} />
-        <Route path="login" element={<login />} />
+        <Route path="/" element={<Cadastro />} />
+        <Route path="login" element={<Login />} />
       </Routes>
     </div>
   );

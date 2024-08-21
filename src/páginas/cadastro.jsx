@@ -1,12 +1,15 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import '../App.css';
 
-function cadastro() {
-  const navigate = useNavigate();
+function Cadastro() {
+//   const navigate = useNavigate();
 
-  const handleClick = () => {
-    navigate('/');
-  };
+//   const handleClick = () => {
+//     navigate('./login.jsx');
+//   };
 
   return (
     <>
@@ -38,11 +41,11 @@ function cadastro() {
             <button type="submit" className="register-button">Cadastrar</button>
           </form>
           
-          <button onClick={handleClick}>Entrar</button>
+          <p>Já tem uma conta? <Link to='/login' className='link'>Entrar</Link></p>
         </div>
       </div>
     </>
   )
-}
+};
 
-export default cadastro
+export default Cadastro

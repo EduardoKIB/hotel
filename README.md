@@ -1,8 +1,10 @@
-# React + Vite
+Atividade sendo entregue agora funcionando as telas de Cadastro e Login.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+primeira parte do trabalho da S.A.
 
-Currently, two official plugins are available:
+<img src= 'https://lh3.googleusercontent.com/drive-storage/AJQWtBNOMP5anPWQk9Sos8xFn2w7fshJBFJh_dO6KuvvcShtOj_F_tRCN4Ppb7_2rQXI3Hy2UeIeedhqzFqy_-3Wxb1CA30_6tCgOpdQjkhuqcJ3ow=w1366-h607'>
+<img src= 'https://lh3.googleusercontent.com/drive-storage/AJQWtBM6s6eOZx1STSVEd4jvIEuYQxUqcEHwINqCPeqVvDHhinpWHPiTdsc3aurozpdS7bKVrM7CPgDC1JMR70NsV9pRupw7Cv0R3Qgj3Y9LAEsdBg=w1366-h607'>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Finalizado a parte das transições de tela, agora o próximo objetivo é ser funcional a integração obrigatório no Cadastro.
+
+Ass: renan e eduardo.
